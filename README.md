@@ -23,6 +23,11 @@ Terdapat 1 class **Petshop** yang memiliki 4 Atribut:
   * 5 | Search    -> Untuk mencari data berdasarkan ID
   * 0 | Exit      -> Untuk keluar dari program
 
+- Dalam Program ini, ID menjadi acuan:
+  * Saat Melakukan Add, ID tidak boleh sama
+  * Saat Melakukan Delete / Search, ID harus tersedia di daftar
+  * Saat Melakukan Change, ID baru tidak boleh sama dengan ID yang tersedia di list
+
 ## Dokumentasi
 
 ### Dokumentasi C++
