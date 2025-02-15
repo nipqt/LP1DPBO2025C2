@@ -32,9 +32,9 @@ Terdapat 1 class **Petshop** yang memiliki 4 Atribut:
 ## Dokumentasi
 
 ### Dokumentasi C++
-![Dokum1 C++](https://github.com/nipqt/LP1DPBO2025C2/blob/main/WhatsApp%20Image%202025-02-15%20at%2022.06.14.jpeg)
-![Dokum1 C++](https://github.com/nipqt/LP1DPBO2025C2/blob/main/WhatsApp%20Image%202025-02-15%20at%2022.06.31.jpeg)
-![Dokum1 C++](https://github.com/nipqt/LP1DPBO2025C2/blob/main/WhatsApp%20Image%202025-02-15%20at%2022.07.05.jpeg)
-![Dokum1 C++](https://github.com/nipqt/LP1DPBO2025C2/blob/main/WhatsApp%20Image%202025-02-15%20at%2022.07.30.jpeg)
-![Dokum1 C++](https://github.com/nipqt/LP1DPBO2025C2/blob/main/WhatsApp%20Image%202025-02-15%20at%2022.07.39.jpeg)
-![Dokum1 C++](https://github.com/nipqt/LP1DPBO2025C2/blob/main/WhatsApp%20Image%202025-02-15%20at%2022.49.53.jpeg)
+![Dokum1 C++](https://github.com/nipqt/TP1DPBO2025C2/blob/main/C%2B%2B/Dokumentasi/WhatsApp%20Image%202025-02-15%20at%2022.06.14.jpeg)
+![Dokum1 C++](https://github.com/nipqt/TP1DPBO2025C2/blob/main/C%2B%2B/Dokumentasi/WhatsApp%20Image%202025-02-15%20at%2022.06.31.jpeg)
+![Dokum1 C++](https://github.com/nipqt/TP1DPBO2025C2/blob/main/C%2B%2B/Dokumentasi/WhatsApp%20Image%202025-02-15%20at%2022.07.05.jpeg)
+![Dokum1 C++](https://github.com/nipqt/TP1DPBO2025C2/blob/main/C%2B%2B/Dokumentasi/WhatsApp%20Image%202025-02-15%20at%2022.07.30.jpeg)
+![Dokum1 C++](https://github.com/nipqt/TP1DPBO2025C2/blob/main/C%2B%2B/Dokumentasi/WhatsApp%20Image%202025-02-15%20at%2022.07.39.jpeg)
+![Dokum1 C++](https://github.com/nipqt/TP1DPBO2025C2/blob/main/C%2B%2B/Dokumentasi/WhatsApp%20Image%202025-02-15%20at%2022.49.53.jpeg)
