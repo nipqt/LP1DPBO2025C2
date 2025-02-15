@@ -31,3 +31,4 @@ Terdapat 1 class **Petshop** yang memiliki 4 Atribut:
 ![Dokum1 C++](https://github.com/nipqt/LP1DPBO2025C2/blob/main/WhatsApp%20Image%202025-02-15%20at%2022.07.05.jpeg)
 ![Dokum1 C++](https://github.com/nipqt/LP1DPBO2025C2/blob/main/WhatsApp%20Image%202025-02-15%20at%2022.07.30.jpeg)
 ![Dokum1 C++](https://github.com/nipqt/LP1DPBO2025C2/blob/main/WhatsApp%20Image%202025-02-15%20at%2022.07.39.jpeg)
+![Dokum1 C++](https://github.com/nipqt/LP1DPBO2025C2/blob/main/WhatsApp%20Image%202025-02-15%20at%2022.49.53.jpeg)
