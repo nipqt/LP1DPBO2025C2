@@ -15,12 +15,12 @@ Terdapat 1 class **Petshop** yang memiliki 4 Atribut:
 - Akan ada pesan "Welcome To Niph Petshop" sebagai salam kedatangan
 - Sebelum ke menu, akan ada input untuk berapa data yang ingin dimasukkan
 - Terdapat 6 menu yang bisa dipilih:
-* 1 | Show      -> Untuk menampilkan data
-* 2 | Add       -> Untuk menambah data
-* 3 | Change    -> Untuk mengubah data berdasarkan ID
-* 4 | Delete    -> Untuk menghapus data berdasarkan ID
-* 5 | Search    -> Untuk mencari data berdasarkan ID
-* 0 | Exit      -> Untuk keluar dari program
+  * 1 | Show      -> Untuk menampilkan data
+  * 2 | Add       -> Untuk menambah data
+  * 3 | Change    -> Untuk mengubah data berdasarkan ID
+  * 4 | Delete    -> Untuk menghapus data berdasarkan ID
+  * 5 | Search    -> Untuk mencari data berdasarkan ID
+  * 0 | Exit      -> Untuk keluar dari program
 
 ## Dokumentasi
 
