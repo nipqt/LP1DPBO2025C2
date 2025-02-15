@@ -25,3 +25,4 @@ Terdapat 1 class **Petshop** yang memiliki 4 Atribut:
 ## Dokumentasi
 
 ### Dokumentasi C++
+https://github.com/nipqt/LP1DPBO2025C2/blob/main/WhatsApp%20Image%202025-02-15%20at%2022.06.14.jpeg
