@@ -24,9 +24,10 @@ Terdapat 1 class **Petshop** yang memiliki 4 Atribut:
   * 0 | Exit      -> Untuk keluar dari program
 
 - Dalam Program ini, ID menjadi acuan:
-  * Saat Melakukan Add, ID tidak boleh sama
+  * Saat Melakukan Add / Change, ID tidak boleh sama dengan ID yang tersedia di list
   * Saat Melakukan Delete / Search, ID harus tersedia di daftar
-  * Saat Melakukan Change, ID baru tidak boleh sama dengan ID yang tersedia di list
+
+- Input juga dibatas sesuai dengan inputan dari poin ke-2 diatas. Jika melebihi, akan muncul pesan error
 
 ## Dokumentasi
 
