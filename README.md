@@ -15,6 +15,7 @@ Terdapat 1 class **Petshop** yang memiliki 4 Atribut:
 - Akan ada pesan "Welcome To Niph Petshop" sebagai salam kedatangan
 - Sebelum ke menu, akan ada input untuk berapa data yang ingin dimasukkan
 - Terdapat 6 menu yang bisa dipilih:
+
   * 1 | Show      -> Untuk menampilkan data
   * 2 | Add       -> Untuk menambah data
   * 3 | Change    -> Untuk mengubah data berdasarkan ID
