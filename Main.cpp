@@ -105,7 +105,10 @@ int main ()
                 while ((fail == 0) && (!(datashop[cari].getID().empty()))) { //Looping untuk pencarian data
                     if ((fail == 0) && ((datashop[cari].getID()) == gante)) { //Jika ID yang dicari sama
                         cout << "ID : "; cin >> ID; //Masukan ID baru
-                        data = 0;
+                        if (ID == gante) {
+                            fail == 0;
+                        } else {
+                            data = 0;
                             while ((fail == 0) && (!(datashop[data].getID().empty()))) { //Loop pengecekan duplikasi ID
                                 if (datashop[data].getID() == ID) { //Jika ada duplikasi
                                     cout << "ID (" << ID << ") ini sudah digunakan" << '\n';
@@ -114,6 +117,7 @@ int main ()
                                     data++; //pencarian berlanjut
                                 }
                             }
+                        }
                         if (fail == 0) {
                             cout << "Nama : "; cin >> namaproduk; //Masukan Nama baru
                             cout << "Kategori : "; cin >> kategori; //Masukan Kategori baru
