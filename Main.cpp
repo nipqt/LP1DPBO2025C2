@@ -60,14 +60,27 @@ int main ()
                             fail = 1; //terdapat fail
                             loop = 1; //proses masukan berakhir
                         } else { //Jika data belum penuh
-                            cout << "Nama : "; cin >> namaproduk; //input nama produk
-                            cout << "Kategori : "; cin >> kategori; //input kategori
-                            cout << "Harga : "; cin >> harga; //input harga
-                            while (!(datashop[data].getID().empty())) { //Loop untuk mencari data terakhir
+                            data = 0;
+                            while ((fail == 0) && (!(datashop[data].getID().empty()))) { //Loop pengecekan duplikasi ID
+                                if (datashop[data].getID() == ID) { //Jika ada duplikasi
+                                    cout << "ID (" << ID << ") ini sudah digunakan" << '\n';
+                                    fail = 1; //terdapat fail
+                                    loop = 1; //loop berakhir
+                                } else {
+                                    data++; //pencarian berlanjut
+                                }
+                            }
+                            if (fail == 0) { //jika tidak terjadi fail
+                                data = 0;
+                                cout << "Nama : "; cin >> namaproduk; //input nama produk
+                                cout << "Kategori : "; cin >> kategori; //input kategori
+                                cout << "Harga : "; cin >> harga; //input harga
+                                while (!(datashop[data].getID().empty())) { //Loop untuk mencari data terakhir
+                                    data++;
+                                }
+                                datashop[data].setData(ID, namaproduk, kategori, harga); //Masukan ditaruh setelah data terakhir
                                 data++;
                             }
-                            datashop[data].setData(ID, namaproduk, kategori, harga); //Masukan ditaruh setelah data terakhir
-                            data++;
                         }
                     }
                 }
@@ -88,21 +101,35 @@ int main ()
                 int harga; //deklarasi masukan harga
                 int ketemu = 0; //Marking untuk outputan
                 int cari = 0; //Inisiasi loop mencari data
-                while (!(datashop[cari].getID().empty())) { //Looping untuk pencarian data
-                    if ((datashop[cari].getID()) == gante) { //Jika ID yang dicari sama
+                int fail = 0; //Deklarasi fail
+                while ((fail == 0) && (!(datashop[cari].getID().empty()))) { //Looping untuk pencarian data
+                    if ((fail == 0) && ((datashop[cari].getID()) == gante)) { //Jika ID yang dicari sama
                         cout << "ID : "; cin >> ID; //Masukan ID baru
-                        cout << "Nama : "; cin >> namaproduk; //Masukan Nama baru
-                        cout << "Kategori : "; cin >> kategori; //Masukan Kategori baru
-                        cout << "Harga : "; cin >> harga; //Masukan Harga baru
-                        datashop[cari].setData(ID, namaproduk, kategori, harga); //Ganti data lama dengan yang baru
-                        ketemu = 1;
+                        data = 0;
+                            while ((fail == 0) && (!(datashop[data].getID().empty()))) { //Loop pengecekan duplikasi ID
+                                if (datashop[data].getID() == ID) { //Jika ada duplikasi
+                                    cout << "ID (" << ID << ") ini sudah digunakan" << '\n';
+                                    fail = 1; //terdapat fail
+                                } else {
+                                    data++; //pencarian berlanjut
+                                }
+                            }
+                        if (fail == 0) {
+                            cout << "Nama : "; cin >> namaproduk; //Masukan Nama baru
+                            cout << "Kategori : "; cin >> kategori; //Masukan Kategori baru
+                            cout << "Harga : "; cin >> harga; //Masukan Harga baru
+                            datashop[cari].setData(ID, namaproduk, kategori, harga); //Ganti data lama dengan yang baru
+                            ketemu = 1;
+                        }
                     }
                     cari++;
                 }
-                if (ketemu == 0) { //Jika belum ketemu
-                    cout << "Produk dengan ID (" + gante + ") tidak ditemukan!" << '\n';
-                } else { //Jika sudah ketemu
-                    cout << "Data has been changed" << '\n';
+                if (fail == 0) {
+                    if (ketemu == 0) { //Jika belum ketemu
+                        cout << "Produk dengan ID (" + gante + ") tidak ditemukan!" << '\n';
+                    } else { //Jika sudah ketemu
+                        cout << "Data has been changed" << '\n';
+                    }
                 }
                 cout << "\n";
                 break;
