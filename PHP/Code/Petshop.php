@@ -7,12 +7,14 @@ class Petshop {
     private $harga = "";
     private $gambar = "";
 
-    public function __construct($ID, $namaProduk, $kategori, $harga, $gambar) {
+    public function __construct() {
+    }
+
+    public function addData($ID, $namaProduk, $kategori, $harga) {
         $this->ID = $ID;
         $this->namaProduk = $namaProduk;
         $this->kategori = $kategori;
         $this->harga = $harga;
-        $this->gambar = $gambar;
     }
 
     public function getID() {
@@ -30,11 +32,5 @@ class Petshop {
     public function getharga() {
         return $this->harga;
     }
-
-    public function getgambar() {
-        return $this->gambar;
-    }
-    
 }
-
 ?>
