@@ -43,3 +43,5 @@ Terdapat 1 class **Petshop** yang memiliki 4 Atribut:
 ![Dokum PHP](https://github.com/nipqt/TP1DPBO2025C2/blob/main/PHP/Dokumentasi/1.png)
 ![Dokum PHP](https://github.com/nipqt/TP1DPBO2025C2/blob/main/PHP/Dokumentasi/2.png)
 ![Dokum PHP](https://github.com/nipqt/TP1DPBO2025C2/blob/main/PHP/Dokumentasi/3.png)
+![Dokum PHP](https://github.com/nipqt/TP1DPBO2025C2/blob/main/PHP/Dokumentasi/4.png)
+![Dokum PHP](https://github.com/nipqt/TP1DPBO2025C2/blob/main/PHP/Dokumentasi/5.png)
