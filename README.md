@@ -21,13 +21,13 @@ Terdapat 1 class **Petshop** yang memiliki 4 Atribut:
   * 3 | Change    -> Untuk mengubah data berdasarkan ID
   * 4 | Delete    -> Untuk menghapus data berdasarkan ID
   * 5 | Search    -> Untuk mencari data berdasarkan ID
-  * 0 | Exit      -> Untuk keluar dari program
+  * 0 | Exit      -> Untuk keluar dari program (reset untuk PHP)
 
 - Dalam Program ini, ID menjadi acuan:
   * Saat Melakukan Add / Change, ID tidak boleh sama dengan ID yang tersedia di list
   * Saat Melakukan Delete / Search, ID harus tersedia di daftar
 
-- Input juga dibatas sesuai dengan inputan dari poin ke-2 diatas. Jika melebihi, akan muncul pesan error
+- Input juga dibatas sesuai dengan inputan dari poin ke-2 diatas. Jika melebihi, akan muncul pesan error (kecuali PHP)
 
 ## Dokumentasi
 
@@ -38,3 +38,10 @@ Terdapat 1 class **Petshop** yang memiliki 4 Atribut:
 ![Dokum1 C++](https://github.com/nipqt/TP1DPBO2025C2/blob/main/C%2B%2B/Dokumentasi/WhatsApp%20Image%202025-02-15%20at%2022.07.30.jpeg)
 ![Dokum1 C++](https://github.com/nipqt/TP1DPBO2025C2/blob/main/C%2B%2B/Dokumentasi/WhatsApp%20Image%202025-02-15%20at%2022.07.39.jpeg)
 ![Dokum1 C++](https://github.com/nipqt/TP1DPBO2025C2/blob/main/C%2B%2B/Dokumentasi/WhatsApp%20Image%202025-02-15%20at%2022.49.53.jpeg)
+
+### Dokumentasi PHP
+![Dokum PHP](https://github.com/nipqt/TP1DPBO2025C2/blob/main/PHP/Dokumentasi/1.png)
+![Dokum PHP](https://github.com/nipqt/TP1DPBO2025C2/blob/main/PHP/Dokumentasi/2.png)
+![Dokum PHP](https://github.com/nipqt/TP1DPBO2025C2/blob/main/PHP/Dokumentasi/3.png)
+![Dokum PHP](https://github.com/nipqt/TP1DPBO2025C2/blob/main/PHP/Dokumentasi/4.png)
+![Dokum PHP](https://github.com/nipqt/TP1DPBO2025C2/blob/main/PHP/Dokumentasi/5.png)
