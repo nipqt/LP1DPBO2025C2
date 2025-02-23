@@ -12,7 +12,7 @@ Terdapat 1 class **Petshop** yang memiliki 4 Atribut:
 
 ## Alur Program
 - Akan ada pesan "Welcome To Niph Petshop" sebagai salam kedatangan
-- Sebelum ke menu, akan ada input untuk berapa data yang ingin dimasukkan
+- Sebelum ke menu, akan ada input untuk berapa data yang ingin dimasukkan (kecuali PHP)
 - Terdapat 6 menu yang bisa dipilih:
 
   * 1 | Show      -> Untuk menampilkan data
